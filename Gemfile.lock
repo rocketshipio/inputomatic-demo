@@ -1,5 +1,5 @@
 PATH
-  remote: ../../rocketshipio/inputomatic
+  remote: ../inputomatic
   specs:
     inputomatic (0.1.0)
       chronic (~> 0.10)
