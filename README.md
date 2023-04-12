@@ -1,24 +1,26 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Demo Rails expenses app that demonstrates how forms can be made more human that allow for entires like "1 week ago" or "124.99/2" without triggering form errors.
 
-Things you may want to cover:
+## Getting started
 
-* Ruby version
+This is a rails app, so clone this repo to your machine, then run.
 
-* System dependencies
+```
+$ bundle
+```
 
-* Configuration
+Then
 
-* Database creation
+```
+bin/rails server
+```
 
-* Database initialization
+Open localhost:3000 and you'll see a lovely expense account app with delightful, humane, form inputs
 
-* How to run the test suite
+## More
 
-* Services (job queues, cache servers, search engines, etc.)
+Read more about this at:
 
-* Deployment instructions
-
-* ...
+* https://github.com/rocketshipio/inputomatic
+* https://fly.io/ruby-dispatch/humane-rails-forms/
