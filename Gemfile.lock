@@ -97,7 +97,7 @@ GEM
     importmap-rails (1.1.5)
       actionpack (>= 6.0.0)
       railties (>= 6.0.0)
-    inputomatic (0.1.0)
+    inputomatic (0.1.1)
       chronic (~> 0.10)
     jbuilder (2.11.5)
       actionview (>= 5.0.0)

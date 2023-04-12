@@ -14,13 +14,13 @@
   <div>
     <%= form.label :purchased_at, style: "display: block" %>
     <%= form.text_field :purchased_at %>
-    <small>Try entering a value like "30 days from now", "Last monday", or "<%= 31.days.from_now.to_s(:long) %>".</small>
+    <small>Try entering a value like <code>30 days from now</code>, <code>Last monday</code>, or <code><%= 31.days.from_now.to_s(:long) %></code>.</small>
   </div>
 
   <div>
     <%= form.label :amount, style: "display: block" %>
     <%= form.text_field :amount %>
-    <small>Try entering a value like "124.99/2", "(100+(12/3)) * 30", or "1,230,211.00".</small>
+    <small>Try entering a value like <code>124.99/2</code>, <code>(100+(12/3)) * 30</code>, or <code>$1,230,211.00</code>.</small>
   </div>
 
   <div>
