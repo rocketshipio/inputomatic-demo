@@ -4,7 +4,7 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 ruby "3.2.0"
 
 # Bundle edge Rails instead: gem "rails", github: "rails/rails", branch: "main"
-gem "rails", "~> 7.1.0.alpha"
+gem "rails", "~> 7.0.4"
 
 # The original asset pipeline for Rails [https://github.com/rails/sprockets-rails]
 gem "sprockets-rails"
@@ -65,4 +65,5 @@ group :test do
   gem "webdrivers"
 end
 
-gem "inputomatic", path: "~/Projects/rocketshipio/inputomatic"
+gem "inputomatic"#, github: "rocketshipio/inputomatic"
+gem "dockerfile-rails", ">= 1.2", :group => :development
